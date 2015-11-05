@@ -24,9 +24,9 @@ h1 {
   float:left;
   background-color:rgb(132,104,179);
   width:14.286%;
-   border-right:2px solid rgb(105,77,152);
-   text-align:center;
-   padding:.5rem;
+  border-right:2px solid rgb(105,77,152);
+  text-align:center;
+  padding:.5rem;
 }
 header li:last-child {
   border-right:none;
@@ -42,6 +42,19 @@ aside li {
   padding:1rem 0;
   text-align:center;
 }
+aside img {
+  max-width:100%;
+  margin:1rem 0 2rem;
+}
+aside h3 {
+  text-align:center;
+  border-bottom:1px solid black;
+  margin-bottom:.5rem;
+  padding-bottom:.2rem;
+}
+#candyCorn aside, #wonka aside {
+  padding:4rem 1rem;
+}
 .contentBox {
   width:80%;
   float:right;
@@ -49,11 +62,23 @@ aside li {
   padding:4rem 8rem;
   height:600px;
 }
+#wonka .contentBox {
+  padding-top:8rem;
+}
 figure {
   text-align:center;
 }
+figure img {
+  max-width:75%;
+}
 figcaption {
-  margin-top:2rem;
+  padding-top:2rem;
+  clear:both;
+}
+#wonka figure img {
+  float:left;
+  margin-right:2rem;
+  max-width:45%;
 }
 footer {
   clear:both;
