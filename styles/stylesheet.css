@@ -17,7 +17,7 @@ li {
 h1 {
   font-size:2rem;
   text-align:center;
-  padding:1rem 0 .5rem;
+  margin:3rem 0 1rem;
   color:rgb(132,104,179);
 }
  header li {
@@ -58,7 +58,12 @@ figcaption {
 footer {
   clear:both;
   text-align:center;
+  padding:2rem 0;
 }
 footer li {
   display:inline;
+  margin:0 1rem;
+}
+footer img {
+  width:3%;
 }
